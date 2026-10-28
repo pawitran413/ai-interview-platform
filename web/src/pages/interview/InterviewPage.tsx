@@ -328,7 +328,7 @@ export default function InterviewPage() {
 		unreachable: {
 			icon: "📡",
 			title: "Cannot reach the server",
-			body: "Please check your internet connection and try again.",
+			body: "Please check your internet connection and refresh page.",
 		},
 	};
 	const failure = failureScreens[interviewState];
