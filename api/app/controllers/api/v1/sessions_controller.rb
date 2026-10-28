@@ -150,6 +150,7 @@ module Api
           role_title:      assessment.name,
           time_limit_min:  assessment.time_limit_min,
           session_status:  session.status,
+          end_reason:      session.end_reason
         )
       end
 
