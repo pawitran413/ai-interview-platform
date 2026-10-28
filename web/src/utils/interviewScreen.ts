@@ -7,7 +7,7 @@ const COMPLETED_REASON = [
 
 export const screenForReason = (reason?: string | null) => {
 	if (!reason) return "complete";
-	return "complete";
+	return COMPLETED_REASON.includes(reason) ? "complete" : "error";
 };
 
 export const screenForSession = (status: string, endReason?: string | null) => {
